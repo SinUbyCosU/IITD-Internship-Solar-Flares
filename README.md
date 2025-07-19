@@ -2,12 +2,15 @@ IIT Delhi – Summer Research Intern
 Department of Physics | May–July 2025
 Project: UV Flash Analysis of Solar Flares using AIA 1600 Å and HMI Data
 Based on: Sharma et al., ApJ 850:206 (2017)
-What I Built
+
+###What I Built###
+
 AIA-HMI Derotation + Alignment:
 Implemented WCS-accurate derotation and temporal co-alignment of AIA 1600 Å images with corresponding HMI continuum and LOS magnetogram data using SunPy, Astropy, and JSOC.
  Blog Write-Up
 Chasing Solar Flares and Losing Sanity: A Summer with Sharma’s Paper
  Read on Medium:https://medium.com/@yadav23/chasing-solar-flares-and-losing-sanity-a-summer-with-sharmas-paper-8fd650abf475
+ 
 ###Arcsecond-level Region Selection:###
 Used SkyCoord and full WCS transformation to crop flaring subregions with high precision, matching annotated ROIs in Sharma et al. (e.g., the white flash box in Figure 2).
 
